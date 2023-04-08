@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+    <!--=============== REMIXICON ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>YouFitTube</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img src="assets/img/logo-nav.png" class="logo_nav" alt="logo">YOUFITTUBE
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#program" class="nav__link">Program</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#footer" class="nav__link">Contact</a>
+                    </li>
+
+                    <div class="nav__link">
+                        <a href="#register" class="button nav__button">
+                            Register Now
+                        </a>
+                    </div>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <!-- toggle button -->
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <h2 class="home__subtitle">MAKE YOUR</h2>
+                    <h1 class="home__title">BODY SHAPE</h1>
+                    <p class="home__description">
+                        WITH OUR PERSONALIZED DIET AND TRAINING PROGRAM!
+                    </p>
+                    <a href="#register" class="button button__flex">
+                        <h3 class="get">Get Started</h3>
+                    </a>
+                </div>
+
+                <div class="home__images">
+                    <img src="assets/img/home-img.png" alt="home image" class="home__img">
+
+                    <div class="home__triangle home__triangle-3"></div>
+                    <div class="home__triangle home__triangle-2"></div>
+                    <div class="home__triangle home__triangle-1"></div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== PROGRAM ====================-->
+        <section class="program section" id="program">
+            <div class="container">
+                <h2 class="section__data">OUR PROGRAMS
+            </div>
+
+            <div class="program__container grid">
+                <article class="program__card">
+                    <div class="program__shape">
+                        <img src="assets/img/program1.png" alt="program image" class="program__img">
+                    </div>
+
+                    <h3 class="program__title">TRAINING PROGRAMS</h3>
+                </article>
+
+                <article class="program__card">
+                    <div class="program__shape">
+                        <img src="assets/img/program2.png" alt="program image" class="program__img">
+                    </div>
+
+                    <h3 class="program__title">COMPLAINTS</h3>
+                </article>
+
+                <article class="program__card">
+                    <div class="program__shape">
+                        <img src="assets/img/program3.png" alt="program image" class="program__img">
+                    </div>
+
+                    <h3 class="program__title">DIET</h3>
+                </article>
+            </div>
+            </div>
+        </section>
+
+        <!--==================== REGISTER ====================-->
+        <section class="registration section" id="register">
+            <form action="https://formspree.io/f/xrgvognr" method="post">
+                <h3 class="reg_title">REGISTER</h3>
+                <input type="text" name="name" id="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" id="email" placeholder="Mail ID" required>
+                <input type="text" name="Height" id="Height" placeholder="Your Height" required>
+                <input type="text" name="Weight" id="Weight" placeholder="Your Weight" required>
+                <input type="text" name="Age" id="Age" placeholder="Your Age" required>
+                <input type="text" name="Gender" id="Gender" placeholder="Your Gender" required>
+                <input type="text" name="Medical Issues" id="Medicalcomplications" placeholder="Your Medical Complications" required>
+                <input type="text"  name="Gym or Home" id="Gymorhome" placeholder="Gym or Home" required>
+                <input type="text" name="Weight Loss or Gain" id="lossgain" placeholder="Weight Loss or Gain" required>
+                <input type="text" name="Muscle Gain" id="musclegain" placeholder="Muscle Gain" required>
+                <input type="text" name="Smoking Habit" id="smoking" placeholder="Smoking Habit?" required>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+
+    </main>
+
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section" id="footer">
+        <div class="footer__container container grid">
+            <div>
+                <a href="#" class="footer__logo">
+                    <img src="assets/img/logo-nav.png" alt="">YouFitTube
+                </a>
+                <p class="footer__description">
+                    Subscribe <br> Update below. <br>
+                    Subscribe to youfittube tube on insta
+                </p>
+                <div class="container">
+                    <div class="footer__group">
+                        <ul class="footer__social">
+                            <a href="facebook.com" target="_blank" class="footer__social--link">
+                                <i class="ri-facebook-circle-fill"></i>
+                            </a>
+                            <a href="facebook.com" target="_blank" class="footer__social--link">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                            <a href="facebook.com" target="_blank" class="footer__social--link">
+                                <i class="ri-instagram-fill"></i>
+                            </a>
+                            <a href="facebook.com" target="_blank" class="footer__social--link">
+                                <i class="ri-youtube-fill"></i>
+                            </a>
+                            <a href="facebook.com" target="_blank" class="footer__social--link">
+                                <i class="ri-whatsapp-fill"></i>
+                            </a>
+                        </ul>
+
+                        <span class="footer__copy">
+                            &#169 copyright YouFitTube . All rights reserved
+                        </span>
+                    </div>
+                </div>
+            </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src=""></script>
+
+    <!--=============== EMAIL JS ===============-->
+
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
